@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set Drawer
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-        mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED); // Disables Drawer!
+        mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED); // Disables Drawer!
         mDrawerListView.setAdapter(new DrawerAdapter(this, mTitles, icons));
         mDrawerListView.setOnItemClickListener(new OnItemClickListener() {
             @Override
